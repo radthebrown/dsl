@@ -6,7 +6,6 @@ def jaccard_similarity(x,y):
     union_cardinality = len(set.union(*[set(x), set(y)]))
     return intersection_cardinality/float(union_cardinality)
 
-
 a = "this is a test"
 b = "this is a tes"
 print(jaccard_similarity(a,b))
