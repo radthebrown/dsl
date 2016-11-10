@@ -7,5 +7,5 @@ def jaccard_similarity(x,y):
     return intersection_cardinality/float(union_cardinality)
 
 a = "this is a test"
-b = "this is a tes"
+b = "this is a test"
 print(jaccard_similarity(a,b))
