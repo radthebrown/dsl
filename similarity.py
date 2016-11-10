@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import ssdeep
 
 def jaccard_similarity(x,y):
