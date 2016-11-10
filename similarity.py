@@ -8,4 +8,6 @@ def jaccard_similarity(x,y):
 
 a = "this is a test"
 b = "this is a tes"
+
+#100% similarity
 print(jaccard_similarity(a,b))
